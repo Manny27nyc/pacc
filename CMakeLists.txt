@@ -138,6 +138,7 @@ endif (ZLIB_FOUND)
 # Look for threads libraries
 message(STATUS "++ Looking for threads libraries...")
 include(FindThreads)
+include(CheckIncludeFiles)
 if(CMAKE_USE_WIN32_THREADS_INIT)
 	# Windows environment
 	message(STATUS "++ Using Windows threads..."  ${CMAKE_THREAD_LIBS_INIT})
