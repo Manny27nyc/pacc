@@ -291,8 +291,8 @@ install(FILES ${PACC_SVG_HEADERS}	DESTINATION	include/PACC/SVG)
 
 # Enable package creation
 set(CPACK_PACKAGE_NAME "pacc")
-set(CPACK_RESOURCE_FILE_README "${CMAKE_CURRENT_SOURCE_DIR}/1-Readme.txt")
-set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/2-License.txt")
+set(CPACK_RESOURCE_FILE_README "${CMAKE_CURRENT_SOURCE_DIR}/README.md")
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE.txt")
 set(CPACK_PACKAGE_VERSION ${PACC_VERSION})
 set(CPACK_PACKAGE_CONTACT "marc.parizeau@gel.ulaval.ca")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "PACC is a collection of Portable Agile C++ Classes that can be retrieved at http://sourceforge.net/projects/pacc/. It is said to be portable because it can run on both Unix and Windows platforms. In general, the PACC classes have been tested and used under Linux, MacOSX, and Windows 2000/XP. They are also known to compile succesfully on AIX.")
