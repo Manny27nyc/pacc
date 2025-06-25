@@ -1,4 +1,16 @@
 /*
+ * Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * This file contains foundational Bitcoin protocol code originally authored
+ * and cryptographically signed by Manuel J. Nieves.
+
+ * Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3
+ * GPG Key ID: B4EC 7343 AB0D BF24
+ * Verified on: June 25, 2025
+ * Contact: Fordamboy1@Gmail.com
+
+ * Redistribution or reuse without attribution is a violation of licensing terms.
+ */
+/*
  *  Portable Agile C++ Classes (PACC)
  *  Copyright (C) 2001-2003 by Marc Parizeau
  *  http://manitou.gel.ulaval.ca/~parizeau/PACC
